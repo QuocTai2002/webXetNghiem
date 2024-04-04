@@ -25,7 +25,7 @@ const Home = () => {
                 url: "#",
               },
               {
-                label: <>Hổ trợ</>,
+                label: <>Hỗ trợ</>,
                 url: "#",
               },
             ].map((item) => (
@@ -34,7 +34,7 @@ const Home = () => {
               </li>
             ))}
             <li>
-              <Link to="#"><PhoneFilled  /> 0903.315.315</Link>
+              <Link to="#"><PhoneFilled  /> 0901.315.315</Link>
             </li>
           </ul>
         </nav>
@@ -48,7 +48,7 @@ const Home = () => {
                   url:'#'
                 },
                 {
-                  label: "Xét nghiệp",
+                  label: "Xét nghiệm",
                   url:'#'
                 },
                 {
@@ -60,7 +60,7 @@ const Home = () => {
                   url:'#'
                 },
                 {
-                  label: "Hổ trợ",
+                  label: "Hỗ trợ",
                   url:'#'
                 },
               ].map((items)=><li><Link to={items.url}>{items.label}</Link></li>)}
@@ -80,9 +80,9 @@ const Home = () => {
        <p className={style.form_title}>Đăng nhập</p>
         <div className={style.input_container}>
         <span>
-            Mã tài khoản
+            Tài khoản
           </span>
-          <input type="email" placeholder="Mã tài khoản"/>
+          <input  placeholder="Tài khoản"/>
           
       </div>
       <div className={style.input_container}>
