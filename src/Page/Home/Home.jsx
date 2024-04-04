@@ -34,7 +34,7 @@ const Home = () => {
               </li>
             ))}
             <li>
-              <Link to="#"><PhoneFilled  /> 0901.315.315</Link>
+              <Link to="#"><PhoneFilled  /> 0908.710.710</Link>
             </li>
           </ul>
         </nav>
